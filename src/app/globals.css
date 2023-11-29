@@ -11,13 +11,10 @@ body {
 }
 
 .container {
-  /* border: 1px solid; */
-  /* margin-top: 10px; */
-  /* width: 1348px; */
   height: 64px;
   box-shadow: 14px 17px 40px 0px rgba(112, 144, 176, 0.08);
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
   border-radius: 20px;
 }
 
@@ -82,7 +79,7 @@ body {
   border-radius: 20px;
   color: #fff;
   box-shadow: 14px 17px 40px 0px rgba(0, 0, 0, 0.13);
-  padding: 0;
+  padding: 0 !important;
   background-position-y: 80%;
 }
 
